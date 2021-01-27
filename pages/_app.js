@@ -1,6 +1,7 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
-import db from '../db.json'
-
+import React from 'react';
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
+import db from '../db.json';
+import Head from 'next/head';
 
 /*npm run dev */
 
@@ -26,8 +27,8 @@ const GlobalStyle = createGlobalStyle`
     }
 
     #__next{
-      flex: 1;
       display: flex;
+      flex: 1;
       flex-direction: column;
     }
 
