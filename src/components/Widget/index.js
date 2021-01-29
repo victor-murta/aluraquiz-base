@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Widget = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;
-  border: 1px solid ${({ theme }) => theme.colors.primary};
+  border: 1px solid ${({ theme }) => theme.colors.secondary};
   background-color: ${({ theme }) => theme.colors.mainBg};
   border-radius: 4px;
   overflow: hidden;
@@ -18,6 +18,7 @@ const Widget = styled.div`
     font-weight: 400;
     line-height: 1;
   }
+  
 `;
 
 Widget.Header = styled.header`
@@ -25,7 +26,7 @@ Widget.Header = styled.header`
   justify-content: flex-start;
   align-items: center;
   padding: 18px 32px;
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.secondary};
   
   * {
     margin: 0;
@@ -44,6 +45,8 @@ Widget.Content = styled.div`
     list-style: none;
     padding: 0;
   }
+  
+  
 `;
 
 Widget.Topic = styled.a`
@@ -52,16 +55,22 @@ Widget.Topic = styled.a`
   color: ${({ theme }) => theme.colors.contrastText};
   background-color: ${({ theme }) => `${theme.colors.primary}40`};
   padding: 10px 15px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   cursor: pointer;
   border-radius: ${({ theme }) => theme.borderRadius};
   transition: .3s;
   display: block;
   
+ 
+
   &:hover,
   &:focus {
-    opacity: .5;
+    opacity: .6;
+    border: 1px solid ${({ theme }) => theme.colors.secondary};
   }
+
+  
+  
 `;
 
 export default Widget;

@@ -1,28 +1,30 @@
 {
-    "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
+    "bg": "https://miro.medium.com/max/1000/1*rpHtt5VicGT3T-mVJJ2jFw.gif",
     "title": "Quiz CSS da Alura",
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
+        "title": "O React é ...",
+        "description": "Essa é pra aquecer !",
+        "answer": 3,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          " Uma linguagem",
+          " Uma tag",
+          " Uma página HTML",
+          " Uma biblioteca"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
+        "image": "https://thumbs.gfycat.com/BestMeagerHoki-small.gif",
+        "title": "O React foi lançado em 2013 e foi criado por Jordan Walke.Em qual empresa Jordan Walke trabalhava?",
+        "description": "Está quase acabando ...",
+        "answer": 2,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Twiter",
+           "Amazon",
+           "Facebook",
+           "Alura"
         ]
       }
     ],

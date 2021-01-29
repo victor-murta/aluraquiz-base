@@ -15,6 +15,8 @@ const Button = styled.button`
   outline: 0;
   transition: .3s;
   cursor: pointer;
+  margin-top: 5px;
+  
   &:hover,
   &:focus {
     opacity: .8;
