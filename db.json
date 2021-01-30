@@ -1,6 +1,6 @@
 {
     "bg": "https://miro.medium.com/max/1000/1*rpHtt5VicGT3T-mVJJ2jFw.gif",
-    "title": "Quiz CSS da Alura",
+    "title": "Quiz React",
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
@@ -25,6 +25,17 @@
            "Amazon",
            "Facebook",
            "Alura"
+        ]
+      },
+      {
+        "image" : "https://cdn.lowgif.com/small/2164f8f85f9e91ee-black-people-react-gif-6-gif-images-download.gif",
+        "title": "Qual a sua 'React' (reação) do quiz?",
+        "description": "Top top",
+        "answer": 1,
+        "alternatives":[
+          "Massa",
+          "Muito massa",
+          "Não gostei"
         ]
       }
     ],
